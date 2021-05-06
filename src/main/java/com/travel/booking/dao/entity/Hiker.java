@@ -7,10 +7,10 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.validation.constraints.Min;
 
-import io.quarkus.hibernate.orm.panache.PanacheEntity;
+import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 
 @Entity
-public class Hiker extends PanacheEntity  implements Serializable {
+public class Hiker extends PanacheEntityBase  implements Serializable {
 
 	/**
 	 * 
