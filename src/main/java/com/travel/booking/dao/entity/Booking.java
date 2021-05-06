@@ -15,12 +15,13 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
+import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 
 
 
 
 @Entity
-public class Booking extends PanacheEntity  implements Serializable {
+public class Booking extends PanacheEntityBase  implements Serializable {
 
 	/**
 	 * 
